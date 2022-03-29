@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+:root{
+--font:'Poppins', sans-serif;
+}
+
+body{
+ background-image: url(bg.jpg);
+ background-repeat: no-repeat;
+ background-size: cover;
+}
+
+#general{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.container{
+    max-width: 350px;
+    margin: auto;
+}
+#one{
+    background-color: #f1f8fc;
+    width: 440px;
+    border-radius: 6px 6px 0 0 ;
+}
+#one h1{
+  font: bold 24px var(--font);
+  line-height: 28px;
+  color: #4f4f4f;
+  padding: 40px 0;
+}
+#one form .inp{
+    display: block;
+    width: 350px;
+    font: 300 18px var(--font);
+    color: #555555;
+    outline: none;
+    padding: 16px 0 16px 22px ;
+    border-radius: 5px;
+    border: none;
+}
+
+#one form input:nth-child(1){
+    margin-bottom: 30px;
+}
+#one form input:nth-child(2){
+    margin-bottom: 50px;
+}
+#one label{
+    font: bold 14px var(--font);
+letter-spacing: 2px;
+line-height: 28px;
+color: #4f4f4f;
+
+}
+#two{
+    background-color: #f1f8fc;
+     width: 440px;
+     border-radius: 0 0 6px 6px;
+}
+#two button{
+    font: bold 22px var(--font); 
+line-height: 28px;
+color: #ffffff;
+text-align: center;
+padding: 20px 130px;
+border-radius: 4px;
+filter: drop-shadow(0px 3px 0px #0075aa);
+background-color: #0896d7;
+border: none;
+cursor: pointer;
+margin-bottom: 50px;
+}
+#two .fb{
+border-radius: 6px;
+background-color: #3162a2;
+padding: 15px 45px;
+font: bold 14px var(--font);
+letter-spacing: 1px;
+line-height: 20px;
+color: #ffffff;
+text-align: center;
+margin-right: 10px;
+}
+#two .tw{
+    border-radius: 6px;
+    background-color: #00aaf4;
+padding: 15px 45px;
+font: bold 14px var(--font);
+letter-spacing: 1px;
+line-height: 20px;
+color: #ffffff;
+text-align: center;
+}
+#frg{
+    float:right;
+    margin-bottom: 30px;
+    font: bold 14px var(--font);
+    line-height: 28px;
+    color: #04a9f4;
+    text-align: right;
+
+}
+#rmb{
+    margin-top: 10px;
+    font: bold 14px var(--font);
+    line-height: 28px;
+   color: #8b8b8b;
+
+}
